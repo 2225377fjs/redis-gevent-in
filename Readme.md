@@ -1,0 +1,2 @@
+因为要结合gevent来使用redis，但是又不想使用monkey来patch，防止污染一些api，所以就使用这个库来解决这个问题
+主要是替换了原来库里面的socket，以及queue的实现
